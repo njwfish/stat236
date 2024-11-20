@@ -2,6 +2,8 @@
 
 This guide provides resources and approaches for working with Language Models (LLMs) and Natural Language Processing (NLP), from basic concepts to advanced fine-tuning techniques.
 
+If you have any questions or need help with your project feel free to make a Git issue or contact me!
+
 ## 📚 Core Learning Resources
 
 1. **Foundations of NLP**: [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slpdraft/) by Jurafsky & Martin
@@ -51,6 +53,8 @@ answer = generator(prompt)
 - Recommended: [Sentence Transformers](https://github.com/UKPLab/sentence-transformers) for practical implementation
 
 Using the `sentence-transformers` library, you can easily encode sentences and compare them to find similar sentences.
+
+We give a detailed example for both supervised and unsupervised transfer learning in the `transfer_learning.ipynb`. 
 
 **Example Usage:**
 
